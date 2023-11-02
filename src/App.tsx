@@ -18,9 +18,9 @@ function App() {
         <Route path="/QuemSomos" element={<QuemSomos />} />
         <Route path="/FaleConosco" element={<FaleConosco />} />
         <Route path="/AnaliseDados/" element={<AnaliseDados />} />
-        <Route path="/IntroducaoASQL/" element={<IntroSQL />} />
-        <Route path="/IntroducaoAPowerBI/" element={<PowerBI />} />
-        <Route path="/IntroducaoAoPythonProgramacao/" element={<Python />} />
+        <Route path="/IntroducaoAoPythonParaProgramacao/" element={<Python />} /> 
+        <Route path="/IntroducaoAoPowerBI/" element={<PowerBI />} />
+        <Route path="/IntroducaoASQLParaGerenciamento/" element={<IntroSQL />} />
       </Routes>
     </BrowserRouter>
   );
