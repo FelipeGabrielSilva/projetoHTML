@@ -1,11 +1,47 @@
-import { Flex, Text } from "@chakra-ui/react";
+import { Flex, Text, Box } from "@chakra-ui/react";
+import {
+  AiFillFacebook,
+  AiFillInstagram,
+  AiFillTwitterSquare,
+} from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
-    return(
-        <>
-            <Flex bg="#164863" color="#fff" w="auto">
-                <Text></Text>
-            </Flex>
-        </>
-    )
+  return (
+    <>
+      <Flex
+        bg="#164863"
+        color="#fff"
+        w="auto"
+        display="flex"
+        justifyContent="space-between"
+        p="1em 30%"
+      >
+        <Box display="flex" flexDir="column" gap="8px">
+          <Text textTransform="uppercase" fontWeight="bold">
+            Redes sociais
+          </Text>
+          <Box display="flex" alignItems="center">
+            <AiFillFacebook />
+            <Text>Technoblog</Text>
+          </Box>
+          <Box display="flex" alignItems="center">
+            <AiFillInstagram />
+            <Text>Technoblog</Text>
+          </Box>
+          <Box display="flex" alignItems="center">
+            <AiFillTwitterSquare />
+            <Text>Technoblog</Text>
+          </Box>
+        </Box>
+        <Box>
+          <Text textTransform="uppercase" fontWeight="bold">
+            Sobre
+          </Text>
+          <Link to="/QuemSomos">Quem somos</Link>
+          <Link to="/FaleConosco">Fale Conosco</Link>
+        </Box>
+      </Flex>
+    </>
+  );
 }
