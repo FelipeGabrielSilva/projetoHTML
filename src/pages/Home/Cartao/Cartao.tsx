@@ -32,14 +32,16 @@ export default function Cartao({
   etiquetaCor,
 }: CartaoProps) {
   return (
-    <Card maxW="sm" h="auto" w="400px">
+    <Card maxW="sm" h="auto" w="500px">
       <CardBody>
-        <Image src={imagem} alt={descricaoImagem} borderRadius="lg" />
+        <Image src={imagem} alt={descricaoImagem} borderRadius="lg" h="100px" m="auto" />
         <Stack mt="6" spacing="3">
-          <Heading size="md">{titulo}</Heading>
-          <Text>{texto} </Text>
+          <Heading size="md" textAlign="justify">{titulo}</Heading>
+          <Text textAlign="justify">{texto}</Text>
         </Stack>
-        <Badge w="auto" colorScheme={etiquetaCor}>{etiqueta}</Badge>
+        <Badge w="auto" colorScheme={etiquetaCor}>
+          {etiqueta}
+        </Badge>
       </CardBody>
       <Divider />
       <CardFooter>
