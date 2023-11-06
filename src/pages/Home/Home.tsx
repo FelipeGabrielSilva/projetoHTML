@@ -14,7 +14,7 @@ export default function Home() {
         m="5em auto"
       >
         <Cartao
-          imagem="src\imgs\excel.png"
+          imagem="src\imgs\Excel\excel.png"
           titulo="Bem-vindo à Análise de Dados"
           texto="Uma introdução à análise de dados, explicando sua importância em diversos setores, como negócios, ciência e governança."
           pagina="/AnaliseDados/"
@@ -22,7 +22,7 @@ export default function Home() {
           etiquetaCor="green"
         />
         <Cartao
-          imagem="src\imgs\python-logo.png"
+          imagem="src\imgs\Python\python-logo.png"
           titulo="Programação em Python para Análise de Dados"
           texto="Introdução ao Python como uma linguagem de programação versátil amplamente usada em análise de dados devido à sua rica ecossistema de bibliotecas."
           pagina="/IntroducaoAoPythonParaProgramacao/"
@@ -30,7 +30,7 @@ export default function Home() {
           etiquetaCor="blue"
         />
         <Cartao
-          imagem="src\imgs\PBI2.png"
+          imagem="src\imgs\PBI\PBI2.png"
           titulo="Visualização de Dados com Power BI"
           texto="Uma introdução ao Power BI, uma ferramenta de visualização de dados poderosa da Microsoft, e sua capacidade de transformar dados brutos em informações significativas."
           pagina="/IntroducaoAoPowerBI/"
@@ -38,7 +38,7 @@ export default function Home() {
           etiquetaCor="orange"
         />
         <Cartao
-          imagem="src\imgs\SQL1.png"
+          imagem="src\imgs\SQL\SQL1.png"
           titulo="Introdução ao SQL para Gerenciamento de Dados"
           texto="Explicação sobre o SQL (Structured Query Language) como uma linguagem de consulta usada para gerenciar bancos de dados relacionais."
           pagina="/IntroducaoASQLParaGerenciamento/"

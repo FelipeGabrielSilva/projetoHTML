@@ -7,6 +7,7 @@ import AnaliseDados from "./pages/Home/AnaliseDados/AnaliseDados";
 import IntroSQL from "./pages/Home/IntroSQL/IntroSQL";
 import PowerBI from "./pages/Home/PowerBI/PowerBI";
 import Python from "./pages/Home/Python/Python";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -18,10 +19,17 @@ function App() {
         <Route path="/QuemSomos" element={<QuemSomos />} />
         <Route path="/FaleConosco" element={<FaleConosco />} />
         <Route path="/AnaliseDados/" element={<AnaliseDados />} />
-        <Route path="/IntroducaoAoPythonParaProgramacao/" element={<Python />} /> 
+        <Route
+          path="/IntroducaoAoPythonParaProgramacao/"
+          element={<Python />}
+        />
         <Route path="/IntroducaoAoPowerBI/" element={<PowerBI />} />
-        <Route path="/IntroducaoASQLParaGerenciamento/" element={<IntroSQL />} />
+        <Route
+          path="/IntroducaoASQLParaGerenciamento/"
+          element={<IntroSQL />}
+        />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
