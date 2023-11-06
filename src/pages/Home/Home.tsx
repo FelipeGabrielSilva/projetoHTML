@@ -15,35 +15,35 @@ export default function Home() {
       >
         <Cartao
           imagem="src\imgs\Excel\excel.png"
-          titulo="Bem-vindo à Análise de Dados"
-          texto="Uma introdução à análise de dados, explicando sua importância em diversos setores, como negócios, ciência e governança."
+          titulo="Microsoft Excel"
+          texto="Excel - Organize, Analise, Simplifique."
           pagina="/AnaliseDados/"
           etiqueta="Excel"
           etiquetaCor="green"
         />
         <Cartao
-          imagem="src\imgs\Python\python-logo.png"
+          imagem="src\imgs\Python\pythonLogo.png"
           titulo="Programação em Python para Análise de Dados"
-          texto="Introdução ao Python como uma linguagem de programação versátil amplamente usada em análise de dados devido à sua rica ecossistema de bibliotecas."
+          texto="Python: Linguagem de programação versátil e acessível."
           pagina="/IntroducaoAoPythonParaProgramacao/"
           etiqueta="Python"
-          etiquetaCor="blue"
+          etiquetaCor="yellow"
         />
         <Cartao
           imagem="src\imgs\PBI\PBI2.png"
           titulo="Visualização de Dados com Power BI"
-          texto="Uma introdução ao Power BI, uma ferramenta de visualização de dados poderosa da Microsoft, e sua capacidade de transformar dados brutos em informações significativas."
+          texto="Power BI: Ferramenta de visualização de dados interativa."
           pagina="/IntroducaoAoPowerBI/"
           etiqueta="power bi"
           etiquetaCor="orange"
         />
         <Cartao
           imagem="src\imgs\SQL\SQL1.png"
-          titulo="Introdução ao SQL para Gerenciamento de Dados"
-          texto="Explicação sobre o SQL (Structured Query Language) como uma linguagem de consulta usada para gerenciar bancos de dados relacionais."
+          titulo="SQL para consulta de Dados"
+          texto="SQL: Linguagem para gerenciar dados em bancos de dados."
           pagina="/IntroducaoASQLParaGerenciamento/"
           etiqueta="sql"
-          etiquetaCor="#000"
+          etiquetaCor="blue"
         />
       </Box>
     </Flex>

@@ -15,7 +15,7 @@ export default function Footer() {
         w="auto"
         display="flex"
         justifyContent="space-between"
-        p="1em 30%"
+        p="1em 20%"
       >
         <Box display="flex" flexDir="column" gap="8px">
           <Text textTransform="uppercase" fontWeight="bold">
@@ -34,7 +34,7 @@ export default function Footer() {
             <Text>Technoblog</Text>
           </Box>
         </Box>
-        <Box>
+        <Box display="flex" flexDir="column">
           <Text textTransform="uppercase" fontWeight="bold">
             Sobre
           </Text>

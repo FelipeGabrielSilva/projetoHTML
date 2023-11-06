@@ -4,56 +4,62 @@ export default function PowerBI() {
   return (
     <Flex w="100%" h="auto" bg="#427D9D">
       <Box display="flex" flexDir="column" w="60%" p="5em" gap="1em">
-        <img src="https://blog.unipar.br/wp-content/uploads/2021/11/post_thumbnail-801c53f03508c73882d8a372d4df2e17.jpeg" />
         <Text fontSize="sm">Descrição imagem</Text>
         <Text fontSize="xl" fontWeight="bold">
-          Visualização de Dados com Power BI
+          Introdução ao Power BI
         </Text>
         <Text>
-          Uma introdução ao Power BI, uma ferramenta de visualização de dados
-          poderosa da Microsoft, e sua capacidade de transformar dados brutos em
-          informações significativas. Instruções detalhadas sobre como conectar
-          fontes de dados ao Power BI e criar relatórios interativos. Exemplos
-          de relatórios e dashboards criados com o Power BI, incluindo a criação
-          de um dashboard de vendas com filtros interativos e gráficos
-          dinâmicos. Página 5: Introdução ao SQL para Gerenciamento de Dados
+          O Power BI, uma ferramenta da Microsoft, torna a análise de dados
+          fácil e divertida, permitindo que você crie gráficos, painéis e
+          relatórios interativos sem a necessidade de habilidades avançadas. Ele
+          conecta várias fontes de dados e fornece insights em tempo real, sendo
+          valioso para profissionais de negócios e entusiastas de tecnologia. É
+          uma ferramenta poderosa para transformar dados em visualizações
+          atraentes e informativas.
         </Text>
         <Text>
-          Uma introdução ao Power BI, uma ferramenta de visualização de dados
-          poderosa da Microsoft, e sua capacidade de transformar dados brutos em
-          informações significativas. Instruções detalhadas sobre como conectar
-          fontes de dados ao Power BI e criar relatórios interativos. Exemplos
-          de relatórios e dashboards criados com o Power BI, incluindo a criação
-          de um dashboard de vendas com filtros interativos e gráficos
-          dinâmicos. Página 5: Introdução ao SQL para Gerenciamento de Dados
-        </Text>
-        <img src="https://blog.unipar.br/wp-content/uploads/2021/11/post_thumbnail-801c53f03508c73882d8a372d4df2e17.jpeg" />
-        <Text>
-          Uma introdução ao Power BI, uma ferramenta de visualização de dados
-          poderosa da Microsoft, e sua capacidade de transformar dados brutos em
-          informações significativas. Instruções detalhadas sobre como conectar
-          fontes de dados ao Power BI e criar relatórios interativos. Exemplos
-          de relatórios e dashboards criados com o Power BI, incluindo a criação
-          de um dashboard de vendas com filtros interativos e gráficos
-          dinâmicos. Página 5: Introdução ao SQL para Gerenciamento de Dados
+          Business Intelligence (BI): O Power BI é amplamente utilizado para
+          análise de dados de negócios. Empresas usam essa ferramenta para criar
+          relatórios e painéis que ajudam na tomada de decisões informadas. Ele
+          permite monitorar métricas de desempenho, identificar tendências e
+          insights que impulsionam o crescimento dos negócios.
         </Text>
         <Text>
-          Uma introdução ao Power BI, uma ferramenta de visualização de dados
-          poderosa da Microsoft, e sua capacidade de transformar dados brutos em
-          informações significativas. Instruções detalhadas sobre como conectar
-          fontes de dados ao Power BI e criar relatórios interativos. Exemplos
-          de relatórios e dashboards criados com o Power BI, incluindo a criação
-          de um dashboard de vendas com filtros interativos e gráficos
-          dinâmicos. Página 5: Introdução ao SQL para Gerenciamento de Dados
+          Análise de Dados Avançada: Além do básico de BI, o Power BI também é
+          usado para análises avançadas. Ele pode integrar linguagens de
+          programação, como R e Python, para realizar análises estatísticas e
+          avançadas em seus dados.
         </Text>
         <Text>
-          Uma introdução ao Power BI, uma ferramenta de visualização de dados
-          poderosa da Microsoft, e sua capacidade de transformar dados brutos em
-          informações significativas. Instruções detalhadas sobre como conectar
-          fontes de dados ao Power BI e criar relatórios interativos. Exemplos
-          de relatórios e dashboards criados com o Power BI, incluindo a criação
-          de um dashboard de vendas com filtros interativos e gráficos
-          dinâmicos. Página 5: Introdução ao SQL para Gerenciamento de Dados
+          Visualização de Dados Interativa: O Power BI é conhecido por sua
+          capacidade de criar visualizações de dados interativas. Isso é útil
+          para criar painéis de controle dinâmicos que permitem aos usuários
+          explorar e interagir com os dados de maneira mais eficaz.
+        </Text>
+        <Text>
+          Relatórios em Tempo Real: O Power BI pode se conectar a fontes de
+          dados em tempo real, permitindo que as organizações monitorem
+          continuamente o desempenho e as métricas em tempo real, essencial para
+          setores como finanças e monitoramento de sistemas.
+        </Text>
+        <Text>
+          Integração com Aplicativos e Serviços: Ele pode ser integrado a outros
+          aplicativos e serviços da Microsoft, como o Excel, o Azure, o
+          SharePoint e o Dynamics 365, o que o torna uma parte central de uma
+          suíte de ferramentas de negócios.
+        </Text>
+        <Text>As duas principais linguagens associadas ao Power BI são:</Text>
+        <Text>
+          DAX (Data Analysis Expressions): É uma linguagem de fórmula que
+          permite criar medidas personalizadas, colunas calculadas e funções
+          para manipular e analisar dados dentro do Power BI. É essencial para
+          criar cálculos avançados.
+        </Text>
+        <Text>
+          M (Power Query Formula Language): Essa linguagem é usada no Power
+          Query, uma ferramenta integrada ao Power BI para importar, transformar
+          e combinar dados de várias fontes. É útil para a preparação e limpeza
+          de dados.
         </Text>
       </Box>
     </Flex>

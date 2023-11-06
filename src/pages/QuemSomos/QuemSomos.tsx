@@ -2,7 +2,7 @@ import { Flex, Box, Text } from "@chakra-ui/react";
 
 export default function QuemSomos() {
   return (
-    <Flex flexDir="column" w="100%" h="auto" bg="#427D9D">
+    <Flex flexDir="column" w="100vw" h="auto" bg="#427D9D">
       <Box display="flex" flexDir="column" w="70%" p="5em" gap="1em">
         <Text fontSize="2xl" fontWeight="bold" textAlign="justify" gap="8px">
           Na [Nome da Sua Empresa], nossa história é marcada por uma dedicação
