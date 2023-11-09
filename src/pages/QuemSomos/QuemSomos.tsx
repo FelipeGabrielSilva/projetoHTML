@@ -5,38 +5,62 @@ export default function QuemSomos() {
     <Flex flexDir="column" w="100vw" h="auto" bg="#F1EFEF">
       <Box display="flex" flexDir="column" w="70%" p="5em" gap="1em">
         <Text fontSize="2xl" fontWeight="bold" textAlign="justify" gap="8px">
-          Na [Nome da Sua Empresa], nossa história é marcada por uma dedicação
-          implacável à excelência e uma paixão inabalável por atender às
-          necessidades de nossos clientes. Desde [ano de fundação], temos
-          trilhado um caminho de constante evolução e crescimento, consolidando
-          nossa reputação como líderes em [área de atuação] e como parceiros de
-          confiança em nossa indústria.
-        </Text>
-        <Text fontSize="xl" textAlign="justify">
-          Na [Nome da Sua Empresa], nossa história é marcada por uma dedicação
-          implacável à excelência e uma paixão inabalável por atender às
-          necessidades de nossos clientes. Desde [ano de fundação], temos
-          trilhado um caminho de constante evolução e crescimento, consolidando
-          nossa reputação como líderes em [área de atuação] e como parceiros de
-          confiança em nossa indústria.
-        </Text>
-        <Text fontSize="xl" textAlign="justify">
-          Visualizamos um mundo onde a inovação tecnológica e a excelência
-          operacional se fundem para criar um ambiente onde as possibilidades
-          são infinitas. Na [Nome da Sua Empresa], estamos determinados a sermos
-          pioneiros nesse futuro.
-        </Text>
-        <Text fontSize="xl" textAlign="justify">
-          Nossa equipe é o coração da [Nome da Sua Empresa]. Composta por
-          profissionais apaixonados e experientes, estamos unidos por nossa
-          visão e compromisso com a excelência. Somos movidos pela determinação
-          de superar desafios e de levar nossa empresa e nossos clientes a novas
-          alturas.
-        </Text>
-        <Text fontSize="xl" textAlign="justify">
-          Agradecemos por nos escolher como seu parceiro. Na [Nome da Sua
-          Empresa], estamos ansiosos para escrever o próximo capítulo de nossa
-          história de sucesso, junto com você. Seja bem-vindo à nossa jornada!
+          Olá visitante, bem-vindo ao tech no blog!
+          <Text
+            display="flex"
+            flexDir="column"
+            gap="1em"
+            fontSize="xl"
+            fontWeight="normal"
+          >
+            Em um mundo em constante evolução tecnológica, a informação é a
+            chave para desvendar o potencial infinito que a tecnologia nos
+            oferece. É com grande prazer que apresentamos o TECH NO BLOG, um
+            espaço dedicado a compartilhar informações precisas de forma
+            acessível, tornando o vasto universo tecnológico compreensível para
+            todos.
+
+            <Text>
+              Nosso principal objetivo é simplificar a tecnologia,
+              proporcionando a você, leitor, uma fonte confiável e amigável de
+              conhecimento. Entendemos que as inovações tecnológicas muitas
+              vezes podem parecer complexas e intimidadoras, mas acreditamos
+              firmemente que, com a abordagem certa, todos podem se beneficiar e
+              aproveitar as maravilhas da era digital.
+            </Text>
+
+            <Text>
+              Buscamos desmistificar conceitos, explicar termos técnicos de
+              maneira descomplicada e oferecer insights valiosos sobre as
+              últimas tendências do mundo da tecnologia. Queremos que você se
+              sinta capacitado a tomar decisões informadas sobre o uso de
+              dispositivos, a adoção de novas plataformas e a compreensão das
+              mudanças que a tecnologia traz para a sociedade.
+            </Text>
+
+            <Text>
+              Nossa abordagem é pautada na clareza, na objetividade e na
+              precisão. Acreditamos que, ao compartilhar informações corretas de
+              maneira simples, contribuímos para a construção de uma comunidade
+              informada e confiante em suas interações com a tecnologia. Seja
+              você um iniciante curioso ou um entusiasta experiente.
+            </Text>
+
+            <Text>
+              Acompanhe-nos em nossa jornada enquanto exploramos juntos o
+              fascinante mundo da tecnologia. Estamos aqui para simplificar,
+              esclarecer e inspirar. Sinta-se à vontade para explorar nossos
+              artigos, comentar, questionar e, acima de tudo, aprender. Estamos
+              comprometidos em ser sua fonte confiável para informações
+              tecnológicas descomplicadas.
+            </Text>
+
+            <Text>
+              Bem-vindo ao TECH NO BLOG - onde a tecnologia se encontra com a
+              simplicidade!
+            </Text>
+            
+          </Text>
         </Text>
       </Box>
     </Flex>
