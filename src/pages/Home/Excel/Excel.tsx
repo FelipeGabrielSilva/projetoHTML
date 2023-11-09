@@ -1,10 +1,10 @@
 import { Flex, Box, Text } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-import { BsYoutube } from "react-icons/bs";
+import { BsYoutube, BsMicrosoft, BsFillBadgeWcFill } from "react-icons/bs";
 
 export default function Excel() {
   return (
-    <Flex w="100%" h="auto" bg="#427D9D">
+    <Flex w="100%" h="auto" bg="#F1EFEF">
       <Box display="flex" flexDir="column" w="60%" p="5em" gap="1em" m="auto">
         <Text fontSize="sm">Descrição imagem</Text>
         <Text fontSize="2xl" fontWeight="bold">
@@ -29,20 +29,19 @@ export default function Excel() {
           empresas de todo o mundo.
         </Text>
         <Text fontSize="2xl" fontWeight="700">
-          Formulas:
+          Fórmulas:
         </Text>
         <Text fontSize="xl">
-          A fórmula PROCV é uma das mais avançadas e úteis. Ela é usada para
+          A FÓRMULA PROCV é uma das mais avançadas e úteis. Ela é usada para
           pesquisar um valor em uma tabela e retornar um valor correspondente em
           outra coluna. Isso é especialmente útil para a busca de informações em
           grandes conjuntos de dados.
         </Text>
         <Text fontSize="xl">
-          A <strong>fórmula SE</strong> permite criar condições lógicas. Com
-          ela, você pode definir ações com base em condições específicas. Por
-          exemplo, =SE(A1 'maior' 10, "Aprovado", "Reprovado") retornará
-          "Aprovado" se o valor em A1 for maior que 10, caso contrário,
-          retornará "Reprovado".
+          A FÓRMULA SE permite criar condições lógicas. Com ela, você pode
+          definir ações com base em condições específicas. Por exemplo, =SE(A1
+          'maior' 10, "Aprovado", "Reprovado") retornará "Aprovado" se o valor
+          em A1 for maior que 10, caso contrário, retornará "Reprovado".
         </Text>
         <Text fontSize="xl">
           Essas são apenas duas das muitas fórmulas e aplicações disponíveis no
@@ -64,17 +63,24 @@ export default function Excel() {
           mais acessível, mesmo para aqueles que não são especialistas em Excel.
         </Text>
         <Text fontSize="2xl" fontWeight="700">
-          Quer saber mais? Acesse os links abaixo:
+          Quer saber mais? Acesse os links:
         </Text>
-        <Text>
+        <Box display="flex" alignItems="center" gap="4px">
+          <BsMicrosoft color="green" />
           <Link
             to="https://support.microsoft.com/pt-br/office/funções-do-excel-por-categoria-5f91f4e9-7b42-46d2-9bd1-63f26a86c0eb"
             target="_blank"
           >
             Microsoft Excel - Docs
           </Link>
-        </Text>
-        <Text>https://www.w3schools.com/EXCEL/index.php</Text>
+        </Box>
+
+        <Box display="flex" alignItems="center" gap="4px">
+          <BsFillBadgeWcFill color="green" />
+          <Link to="https://www.w3schools.com/EXCEL/index.php" target="_blank">
+            Aprenda Excel - W3Schools
+          </Link>
+        </Box>
 
         <Box display="flex" alignItems="center" gap="4px">
           <BsYoutube color="red" />
@@ -82,15 +88,13 @@ export default function Excel() {
             Ninja do Excel
           </Link>
         </Box>
-        
+
         <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/qQLT_uoMN0U?si=1wjJAtOGlQfo9lWh"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
         ></iframe>
       </Box>
     </Flex>

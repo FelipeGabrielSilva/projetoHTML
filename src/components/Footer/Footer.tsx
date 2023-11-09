@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <>
       <Flex
-        bg="#164863"
+        bg="#191717"
         color="#fff"
         w="auto"
         display="flex"
