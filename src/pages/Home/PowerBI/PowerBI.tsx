@@ -3,12 +3,12 @@ import { Flex, Box, Text } from "@chakra-ui/react";
 export default function PowerBI() {
   return (
     <Flex w="100%" h="auto" bg="#427D9D">
-      <Box display="flex" flexDir="column" w="60%" p="5em" gap="1em">
+      <Box display="flex" flexDir="column" w="60%" p="5em" gap="1em" m="auto">
         <Text fontSize="sm">Descrição imagem</Text>
         <Text fontSize="xl" fontWeight="bold">
           Introdução ao Power BI
         </Text>
-        <Text>
+        <Text fontSize="xl">
           O Power BI, uma ferramenta da Microsoft, torna a análise de dados
           fácil e divertida, permitindo que você crie gráficos, painéis e
           relatórios interativos sem a necessidade de habilidades avançadas. Ele
@@ -17,49 +17,53 @@ export default function PowerBI() {
           uma ferramenta poderosa para transformar dados em visualizações
           atraentes e informativas.
         </Text>
-        <Text>
+        <Text fontSize="xl">
           Business Intelligence (BI): O Power BI é amplamente utilizado para
           análise de dados de negócios. Empresas usam essa ferramenta para criar
           relatórios e painéis que ajudam na tomada de decisões informadas. Ele
           permite monitorar métricas de desempenho, identificar tendências e
           insights que impulsionam o crescimento dos negócios.
         </Text>
-        <Text>
+        <Text fontSize="xl">
           Análise de Dados Avançada: Além do básico de BI, o Power BI também é
           usado para análises avançadas. Ele pode integrar linguagens de
           programação, como R e Python, para realizar análises estatísticas e
           avançadas em seus dados.
         </Text>
-        <Text>
+        <Text fontSize="xl">
           Visualização de Dados Interativa: O Power BI é conhecido por sua
           capacidade de criar visualizações de dados interativas. Isso é útil
           para criar painéis de controle dinâmicos que permitem aos usuários
           explorar e interagir com os dados de maneira mais eficaz.
         </Text>
-        <Text>
+        <Text fontSize="xl">
           Relatórios em Tempo Real: O Power BI pode se conectar a fontes de
           dados em tempo real, permitindo que as organizações monitorem
           continuamente o desempenho e as métricas em tempo real, essencial para
           setores como finanças e monitoramento de sistemas.
         </Text>
-        <Text>
+        <Text fontSize="xl">
           Integração com Aplicativos e Serviços: Ele pode ser integrado a outros
           aplicativos e serviços da Microsoft, como o Excel, o Azure, o
           SharePoint e o Dynamics 365, o que o torna uma parte central de uma
           suíte de ferramentas de negócios.
         </Text>
-        <Text>As duas principais linguagens associadas ao Power BI são:</Text>
-        <Text>
+        <Text  fontSize="2xl" fontWeight="700">As duas principais linguagens associadas ao Power BI são:</Text>
+        <Text fontSize="xl">
           DAX (Data Analysis Expressions): É uma linguagem de fórmula que
           permite criar medidas personalizadas, colunas calculadas e funções
           para manipular e analisar dados dentro do Power BI. É essencial para
           criar cálculos avançados.
         </Text>
-        <Text>
+        <Text fontSize="xl">
           M (Power Query Formula Language): Essa linguagem é usada no Power
           Query, uma ferramenta integrada ao Power BI para importar, transformar
           e combinar dados de várias fontes. É útil para a preparação e limpeza
           de dados.
+        </Text>
+        <Text>https://learn.microsoft.com/pt-br/power-bi/</Text>
+        <Text>
+          https://www.youtube.com/playlist?list=PLxjKFMYkZ9OegeivH4_Laqt2rhCDMnLdi
         </Text>
       </Box>
     </Flex>

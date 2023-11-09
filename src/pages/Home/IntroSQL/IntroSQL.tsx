@@ -3,7 +3,7 @@ import { Flex, Box, Text } from "@chakra-ui/react";
 export default function IntroSQL() {
   return (
     <Flex w="100%" h="auto" bg="#427D9D">
-      <Box display="flex" flexDir="column" w="60%" p="5em" gap="1em">
+      <Box display="flex" flexDir="column" w="60%" p="5em" gap="1em" m="auto">
         <Text fontSize="sm">Descrição imagem</Text>
         <Text fontSize="xl" fontWeight="bold">
           Introdução ao SQL para Gerenciamento de Dados
@@ -62,6 +62,11 @@ export default function IntroSQL() {
         <Text>
           JOIN: A cláusula JOIN é usada para combinar dados de várias tabelas
           com base em chaves relacionadas.
+        </Text>
+        <Text>https://blogdosql.com.br</Text>
+        <Text>https://www.w3schools.com/sql/</Text>
+        <Text>
+          https://www.youtube.com/playlist?list=PLnNURxKyyLIInBfeGiJ8L314AD015mHkv
         </Text>
       </Box>
     </Flex>

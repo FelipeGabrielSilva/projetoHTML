@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home/Home";
 import QuemSomos from "./pages/QuemSomos/QuemSomos";
 import FaleConosco from "./pages/FaleConosco/FaleConosco";
-import AnaliseDados from "./pages/Home/AnaliseDados/AnaliseDados";
+import AnaliseDados from "./pages/Home/Excel/Excel";
 import IntroSQL from "./pages/Home/IntroSQL/IntroSQL";
 import PowerBI from "./pages/Home/PowerBI/PowerBI";
 import Python from "./pages/Home/Python/Python";
