@@ -4,8 +4,16 @@ export default function QuemSomos() {
   return (
     <Flex flexDir="column" w="100vw" h="auto" bg="#F1EFEF">
       <Box display="flex" flexDir="column" w="70%" p="5em" gap="1em">
-        <Text fontSize="2xl" fontWeight="bold" textAlign="justify" gap="8px">
+        <Text
+          display="flex"
+          flexDir="column"
+          fontSize="2xl"
+          fontWeight="bold"
+          textAlign="justify"
+          gap="1em"
+        >
           Olá visitante, bem-vindo ao tech no blog!
+
           <Text
             display="flex"
             flexDir="column"
@@ -15,7 +23,7 @@ export default function QuemSomos() {
           >
             Em um mundo em constante evolução tecnológica, a informação é a
             chave para desvendar o potencial infinito que a tecnologia nos
-            oferece. É com grande prazer que apresentamos o TECH NO BLOG, um
+            oferece. É com grande prazer que estamos aqui, um
             espaço dedicado a compartilhar informações precisas de forma
             acessível, tornando o vasto universo tecnológico compreensível para
             todos.
@@ -50,16 +58,15 @@ export default function QuemSomos() {
               Acompanhe-nos em nossa jornada enquanto exploramos juntos o
               fascinante mundo da tecnologia. Estamos aqui para simplificar,
               esclarecer e inspirar. Sinta-se à vontade para explorar nossos
-              artigos, comentar, questionar e, acima de tudo, aprender. Estamos
+              artigos e aprender. Estamos
               comprometidos em ser sua fonte confiável para informações
               tecnológicas descomplicadas.
             </Text>
 
             <Text>
-              Bem-vindo ao TECH NO BLOG - onde a tecnologia se encontra com a
+              Bem-vindo ao tech no blog - onde a tecnologia se encontra com a
               simplicidade!
             </Text>
-            
           </Text>
         </Text>
       </Box>

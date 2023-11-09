@@ -8,6 +8,7 @@ import IntroSQL from "./pages/Home/IntroSQL/IntroSQL";
 import PowerBI from "./pages/Home/PowerBI/PowerBI";
 import Python from "./pages/Home/Python/Python";
 import Footer from "./components/Footer/Footer";
+import Error from "./pages/Error/Error";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           path="/IntroducaoASQLParaGerenciamento/"
           element={<IntroSQL />}
         />
+        <Route path="/Error404/" element={<Error />} />
       </Routes>
       <Footer />
     </BrowserRouter>

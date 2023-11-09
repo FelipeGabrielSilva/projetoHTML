@@ -1,10 +1,12 @@
 .navbar {
     background-color: #7D7C7C;
+    height: 10vh;
   }
   
   .list {
     color: #fff;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 1em 3em;
     list-style: none;
