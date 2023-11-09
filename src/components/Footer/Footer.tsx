@@ -23,15 +23,15 @@ export default function Footer() {
           </Text>
           <Box display="flex" alignItems="center">
             <AiFillFacebook />
-            <Text>Technoblog</Text>
+            <Link to="error">Technoblog</Link>
           </Box>
           <Box display="flex" alignItems="center">
             <AiFillInstagram />
-            <Text>Technoblog</Text>
+            <Link to="error">Technoblog</Link>
           </Box>
           <Box display="flex" alignItems="center">
             <AiFillTwitterSquare />
-            <Text>Technoblog</Text>
+            <Link to="error">Technoblog</Link>
           </Box>
         </Box>
         <Box display="flex" flexDir="column">

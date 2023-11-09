@@ -7,16 +7,17 @@ export default function Python() {
   return (
     <Flex w="100%" h="auto" bg="#F1EFEF">
       <Box display="flex" flexDir="column" w="60%" p="5em" gap="1em" m="auto">
-        <Text fontSize="sm">Descrição imagem</Text>
         <Text fontSize="2xl" fontWeight="bold">
           Programação em Python para Análise de Dados
         </Text>
+        
         <Text fontSize="xl" display="flex" flexDir="column" gap="1em">
           Python é uma linguagem de programação amplamente utilizada em diversas
           áreas, incluindo análise de dados, devido à sua simplicidade e
           versatilidade. Neste artigo, exploraremos como Python se destaca como
           uma escolha popular para profissionais de dados e como a biblioteca
           Pandas torna a análise de dados ainda mais eficaz.
+          
           <Text>
             Python é conhecido por sua legibilidade e facilidade de aprendizado,
             tornando-o acessível a iniciantes e especialistas. Ele oferece uma
@@ -25,33 +26,41 @@ export default function Python() {
             de código aberto e possui uma comunidade ativa que contribui com
             soluções e recursos constantemente.
           </Text>
+          
           <Text fontSize="2xl" fontWeight="700">
             Aplicações na Análise de Dados:
           </Text>
+          
           <Text>
             Python é utilizado em diversas áreas da análise de dados, incluindo:
           </Text>
+          
           <Text>
             1 - Limpeza e Preparação de Dados: Python simplifica tarefas como
             remoção de dados duplicados, tratamento de valores ausentes e
             transformação de dados.
           </Text>
+          
           <Text>
             2 - Visualização de Dados: Bibliotecas como Matplotlib e Seaborn
             permitem a criação de gráficos e visualizações informativas.
           </Text>
+          
           <Text>
             3 - Análise Estatística: Com bibliotecas como SciPy e Statsmodels,
             você pode realizar análises estatísticas detalhadas.
           </Text>
+          
           <Text>
             4 - Machine Learning: Python é a escolha preferida para
             desenvolvimento de modelos de aprendizado de máquina, graças a
             bibliotecas como Scikit-Learn e TensorFlow.
           </Text>
+          
           <Text fontSize="2xl" fontWeight="700">
             Pandas e Matplotlib - Simplicando a análise de dados:
           </Text>
+          
           <Text>
             Pandas é uma biblioteca Python amplamente usada na análise de dados.
             Ela oferece estruturas de dados flexíveis, como DataFrames e Series,
@@ -60,6 +69,7 @@ export default function Python() {
             informações, tornando a análise de dados uma tarefa mais eficiente e
             acessível para profissionais de todas as áreas.
           </Text>
+          
           <Text>
             Matplotlib é uma biblioteca Python que oferece uma ampla gama de
             opções de gráficos e visualizações de dados. Sua versatilidade a
@@ -68,6 +78,7 @@ export default function Python() {
             Com Matplotlib, é possível criar gráficos personalizados para
             comunicar informações de forma eficaz.
           </Text>
+          
           <Text fontSize="2xl" fontWeight="700">
             Quer saber mais? Acesse os links:
           </Text>

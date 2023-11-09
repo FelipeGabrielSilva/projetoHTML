@@ -6,10 +6,10 @@ export default function Excel() {
   return (
     <Flex w="100%" h="auto" bg="#F1EFEF">
       <Box display="flex" flexDir="column" w="60%" p="5em" gap="1em" m="auto">
-        <Text fontSize="sm">Descrição imagem</Text>
         <Text fontSize="2xl" fontWeight="bold">
           Introdução ao Microsoft Excel
         </Text>
+
         <Text fontSize="xl">
           Bem-vindos ao nosso blog de tecnologia! Hoje, vamos explorar uma das
           ferramentas mais icônicas do mundo da computação e negócios - o
@@ -22,27 +22,32 @@ export default function Excel() {
           peça-chave no quebra-cabeça da tecnologia e produtividade. Prepare-se
           para explorar o universo do Excel, além do que você já conhece.
         </Text>
+
         <Text fontSize="xl">
           O Microsoft Excel é uma ferramenta poderosa para trabalhar com dados e
           análises. Mostraremos agora algumas das fórmulas e aplicações mais
           importantes que tornam o Excel uma escolha popular em escritórios e
           empresas de todo o mundo.
         </Text>
+
         <Text fontSize="2xl" fontWeight="700">
           Fórmulas:
         </Text>
+
         <Text fontSize="xl">
           A FÓRMULA PROCV é uma das mais avançadas e úteis. Ela é usada para
           pesquisar um valor em uma tabela e retornar um valor correspondente em
           outra coluna. Isso é especialmente útil para a busca de informações em
           grandes conjuntos de dados.
         </Text>
+
         <Text fontSize="xl">
           A FÓRMULA SE permite criar condições lógicas. Com ela, você pode
           definir ações com base em condições específicas. Por exemplo, =SE(A1
           'maior' 10, "Aprovado", "Reprovado") retornará "Aprovado" se o valor
           em A1 for maior que 10, caso contrário, retornará "Reprovado".
         </Text>
+
         <Text fontSize="xl">
           Essas são apenas duas das muitas fórmulas e aplicações disponíveis no
           Excel. Compreender essas funções básicas ajudará você a começar a
@@ -52,9 +57,11 @@ export default function Excel() {
           para explorar e experimentar, e você descobrirá o potencial do Excel
           em suas tarefas diárias.
         </Text>
+
         <Text fontSize="2xl" fontWeight="700">
           Tabela dinâmica:
         </Text>
+
         <Text fontSize="xl">
           Uma tabela dinâmica é uma tabela interativa que permite resumir
           grandes volumes de dados de maneira organizada e eficiente. Com uma
@@ -62,9 +69,11 @@ export default function Excel() {
           acordo com suas necessidades específicas, tornando a análise de dados
           mais acessível, mesmo para aqueles que não são especialistas em Excel.
         </Text>
+
         <Text fontSize="2xl" fontWeight="700">
           Quer saber mais? Acesse os links:
         </Text>
+
         <Box display="flex" alignItems="center" gap="4px">
           <BsMicrosoft color="green" />
           <Link
